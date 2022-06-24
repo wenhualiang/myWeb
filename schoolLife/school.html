@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="./school.css">
+	</head>
+	<body>
+		<div class="container">
+			<!-- 页眉区header -->
+			<div class="header">
+				<!-- 四个跳转页面，下划线规范命名 -->
+				<a class="header_inner" href="../index/index.html">网站首页</a>
+				<a class="header_inner header_inner_self" href="/#">财大点滴</a>
+				<a class="header_inner" href="../loverBook/book.html">我最爱的书</a>
+				<a class="header_inner" href="../message/message.html">给我留言</a>
+			</div>
+			<!-- end of header -->
+			<!-- 标题区title -->
+			<div class="title">
+				<div class="title_inner">财大点滴</div>
+			</div>
+			<!-- end of title -->
+			<!-- 内容区content -->
+			<div class="content">
+				<!-- 手写实现轮播图效果 -->
+				<!-- 实现原理：通过label链接对应的input-radio，来显示对应的图片。input元素已在css中设置隐藏。 -->
+				<div class="slidershow middle">
+					
+					<div class="slides">
+						<input type="radio" name="r" id="r1" checked>
+						<input type="radio" name="r" id="r2">
+						<input type="radio" name="r" id="r3">
+						<input type="radio" name="r" id="r4">
+						<input type="radio" name="r" id="r5">
+						<input type="radio" name="r" id="r6">
+						<!-- 图片盒子 -->
+						<div class="slide s1">
+							<img src="../images/1.jpg" alt="">
+						</div>
+						<div class="slide s1">
+							<img src="../images/2.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="../images/3.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="../images/4.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="../images/5.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="../images/6.jpg" alt="">
+						</div>
+						<!-- 轮播图导航点 -->
+						<div class="navigation">
+							<label for="r1" class="bar"></label>
+							<label for="r2" class="bar"></label>
+							<label for="r3" class="bar"></label>
+							<label for="r4" class="bar"></label>
+							<label for="r5" class="bar"></label>
+							<label for="r6" class="bar"></label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end of content -->
+			<!-- 页脚区footer -->
+			<div class="footer">
+				<div class="footer_innner">@LWH</div>
+			</div>
+			<!-- end of footer -->
+		</div>
+	</body>
+</html>

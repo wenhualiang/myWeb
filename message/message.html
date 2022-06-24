@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="./message.css">
+	</head>
+	<body>
+		<div class="container">
+			<!-- 页眉区header -->
+			<div class="header">
+				<!-- 四个跳转页面，下划线规范命名 -->
+				<!-- 多个类名，样式复用 -->
+				<a class="header_inner" href="../index/index.html">网站首页</a>
+				<a class="header_inner" href="../schoolLife/school.html">财大点滴</a>
+				<a class="header_inner" href="../loverBook/book.html">我最爱的书</a>
+				<a class="header_inner header_inner_self" href="/#">给我留言</a>
+			</div>
+			<!-- end of header -->
+			<!-- 标题区title -->
+			<div class="title">
+				<div class="title_inner">给我留言</div>
+			</div>
+			<!-- end of title -->
+			<!-- 内容区content -->
+			<div class="content">
+				<!-- 左边 -->
+				<div class="content_inner_left">
+					<!-- form表单元素 -->
+					<form action="">
+						<!-- 用户姓名 -->
+						<div class="name contentBox">
+							<label for="name">用户姓名：</label>
+							<input type="text" id="name">
+						</div>
+						<!-- 登录密码 -->
+						<div class="pwd contentBox">
+							<label for="password">登录密码：</label>
+							<input type="text" id="password">
+						</div>
+						<!-- 个人爱好 -->
+						<div class="hobby contentBox">
+							<label for="hobby">你的爱好：</label>
+							<input type="text" id="hobby">
+						</div>
+						<!-- 性别 -->
+						<div class="sex contentBox">
+							<label>性别：</label>
+							<label for="sex_boy">男</label>
+							<input type="radio" id="sex_boy">
+							<label for="sex_girl">女</label>
+							<input type="radio" id="sex_girl">
+						</div>
+						<!-- 留言内容 -->
+						<div class="message contentBox">
+							<label for="message">给我留言：</label>
+							<textarea id="message" cols="30" rows="10"></textarea>
+						</div>
+					</form>
+				</div>
+				<!-- 右边 -->
+				<div class="content_inner_right">
+					<!-- 搜索 -->
+					<div class="search contentBox">
+						<label for="search">请输入关键字搜索：</label>
+						<input type="text" id="search">
+					</div>
+					<!-- 座右铭 -->
+					<div class="motto">
+						座右铭
+					</div>
+					<p>努力是像猫一样的动物,有的时候会让我伤心,有的时候很可爱。可我能做的也只有努力。</p>
+				</div>
+			</div>
+			<!-- end of content -->
+			<!-- 页脚区footer -->
+			<div class="footer">
+				<div class="footer_innner">@LWH</div>
+			</div>
+			<!-- end of footer -->
+		</div>
+	</body>
+</html>
